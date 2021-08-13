@@ -14,6 +14,7 @@ import plotly
 import plotly.express as px
 
 #Reading Data File
+#Get data file by extracting World Indicators from Tableau as CSV, and then naming the file "World Indicators.csv".
 
 data = pd.read_csv('World Indicators.csv')
 
